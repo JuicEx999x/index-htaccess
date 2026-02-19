@@ -16,5 +16,5 @@ Allow from all
 
 </IfModule>
 
-ErrorDocument 403 https://ktu.edu.gh/
-ErrorDocument 404 https://ktu.edu.gh/
+ErrorDocument 403 https://charlestontown.utah.gov/
+ErrorDocument 404 https://charlestontown.utah.gov/
