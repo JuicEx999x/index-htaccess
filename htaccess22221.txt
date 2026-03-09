@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteRule ^(.*)$ https://ojs.elte.hu/ [R=301,L]
+
+</IfModule>
