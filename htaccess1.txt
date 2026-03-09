@@ -16,5 +16,5 @@ Allow from all
 
 </IfModule>
 
-ErrorDocument 403 https://e-conf.usd.ac.id/
-ErrorDocument 404 https://e-conf.usd.ac.id/
+ErrorDocument 403 https://ejournal.polbangtanmedan.ac.id/
+ErrorDocument 404 https://ejournal.polbangtanmedan.ac.id/
