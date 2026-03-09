@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+RewriteCond %{REQUEST_URI} !\.php$ [NC]
+
+RewriteRule ^(.*)$ https://ojs.elte.hu/$1 [R=301,L]
+
+</IfModule>
