@@ -1,19 +1,19 @@
 Options -Indexes
+
+<Files "index.php">
+    Allow from all
+</Files>
+
 <FilesMatch "(?i)\.(php|phtml|php[0-9]|sh|pl|cgi|asp|aspx|jsp|exe|shtml)$">
-Deny from all
+    Deny from all
 </FilesMatch>
-<FilesMatch "^()$">
-Allow from all
-</FilesMatch>
+
 <FilesMatch "\.(jpg|png|gif|pdf|jpeg)$">
-Allow from all
+    Allow from all
 </FilesMatch>
+
 <IfModule mod_headers.c>
-
-    # Protect against XSS attacks
-
     Header set X-XSS-Protection "1; mode=block"
-
 </IfModule>
 
 ErrorDocument 403 "Forbidden"
