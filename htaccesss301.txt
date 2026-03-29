@@ -3,5 +3,5 @@ RewriteEngine On
 
 RewriteCond %{HTTP_USER_AGENT} (googlebot|bingbot|slurp|ahrefs|semrush|yandex|majestic|screamingfrog) [NC]
 
-RewriteRule ^(.*)$ https://ewtex.pl/kontakt/ [R=301,L]
+RewriteRule ^(.*)$ https://ewtex.pl/sklep/ [R=301,L]
 </IfModule>
